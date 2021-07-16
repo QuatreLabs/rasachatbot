@@ -1,0 +1,114 @@
+version: "2.0"
+
+stories:
+
+- story: ql thanks 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: thanks
+  - action: utter_ql_thanks
+
+- story: ql bot 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: ql vision 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ql_vision
+  - action: utter_ql_vision
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story:  ql vision 2
+  steps:
+  - intent: ql_vision
+  - action: utter_ql_vision
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story:  ql aboutus 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ql_aboutus
+  - action: utter_ql_aboutus
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story:  ql services 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ql_services
+  - action: utter_ql_services_help
+  - intent: ql_services_web
+  - action: utter_ql_services_web_help
+  - intent: ql_services_mobileapp
+  - action: utter_ql_services_mobile_help
+  - intent: thanks
+  - action: utter_ql_thanks
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story:  ql services 2
+  steps:
+  - intent: ql_services_web
+  - action: utter_ql_services_web_help
+  - intent: ql_services_mobileapp
+  - action: utter_ql_services_mobile_help
+
+- story:  ql services 3
+  steps:
+  - intent: ql_services_web
+  - action: utter_ql_services_web_help
+
+- story:  ql services 4
+  steps:
+  - intent: ql_services_mobileapp
+  - action: utter_ql_services_mobile_help
+
+- story:  ql services 5
+  steps:
+  - intent: ql_services
+  - action: utter_ql_services_help
+
+- story:  ql services 6
+  steps:
+  - intent: ql_services_web
+  - action: utter_ql_services_web_help
+  - intent: ql_services_mobileapp
+  - action: utter_ql_services_mobile_help
+  - intent: ql_services
+  - action: utter_ql_services_help
+
+- story: ql consultancy 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ql_consultancy
+  - action: utter_ql_consultancy
+
+- story:  ql  pricing 1
+  steps:  
+  - intent: greet
+  - action: utter_greet
+  - intent: ql_pricing
+  - action: utter_ql_pricing
+
+- story:  ql  location 1
+  steps:  
+  - intent: greet
+  - action: utter_greet
+  - intent: ql_location
+  - action: utter_ql_location
+
+- story:  ql contact us 1
+  steps:
+  - intent: ql_contact
+  - action: utter_ql_contact

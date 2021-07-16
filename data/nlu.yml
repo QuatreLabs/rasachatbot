@@ -1,0 +1,170 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - what is your name ?
+    - how can i call you ?
+    - how to call you ?
+    - who is quat ?
+    - how do we call you ?
+
+
+- intent: thanks
+  examples: |
+    - thanks
+    - thank you
+    - merci
+    - congrats
+    - well done
+    - congratulations
+
+- intent: ql_vision
+  examples: |
+    - What is your vision ?
+    - What is the QuatreLabs Vision ?
+    - QuatreLabs Vision
+    - What are the goals of QuatreLabs ?
+    - How do you see the future of QuatreLabs ?
+
+- intent: ql_aboutus
+  examples: |
+    - Who is quatrelabs ?
+    - Tell me about quatrelabs ?
+    - what is quatrelabs ?
+    - who are you ?
+    - Tell me something about quatrelabs
+
+- intent: ql_services
+  examples: |
+    - What are all the services provided ?
+    - services
+    - what services can quatrelabs provide ?
+    - how can quatrelabs help my business ?
+    - how can you help my business ?
+    - can quatrelabs help my business with digital services ?
+    - we wish to move our business to digital how can you help ?
+    - I need an application for my business
+    - need an app to run my business
+    - i need a app
+
+- intent: ql_services_web
+  examples: |
+    - Can you provide some help in web services ?
+    - Do you provide help in web engineering ?
+    - Can you create website for our business ?
+    - how can you help us creating a website for our business
+    - I need a website to start my business
+    - can you create web applications ?
+    - web
+    - can you create web apps ?
+
+- intent: ql_services_mobileapp
+  examples: |
+    - Can you provide some help in mobile services ?
+    - Do you provide help in mobile engineering ?
+    - Can you create mobile application for our business ?
+    - how can you help us creating a mobile app for our business
+    - I need a mobile app to start my business
+    - can you create mobile applications ?
+    - can you create a android application for my business ?
+    - can you create a ios mobile application for my business ?
+    - can you create a native mobile application services for my business ?
+    - android mobile application
+    - ios mobile application
+    - i wish to have a android and ios mobile application
+    - mobile
+    - can you create mobile apps ?
+
+- intent: ql_consultancy
+  examples: |
+    - need consultancy support
+    - can you provide consultancy support ?
+
+- intent: ql_pricing
+  examples: |
+    - What is your pricing ?
+    - how much do you charge ?
+    - price
+    - money
+    - amount
+    - pay
+    - payment
+    - what's your rate ?
+    - rate
+    - @gmail.com
+    - @
+
+- intent: ql_location
+  examples: |
+    - location
+    - place
+    - country
+    - state
+    - city
+    - spot
+    - where are you from
+
+- intent: ql_contact
+  examples: |
+    - Can i get your contact number ?
+    - how to contact you ?
+    - how to reach your team ?
+    - can i get your mail id ?
+    - can i have your contact details ?
+    - can i have your email id ?
+    - can you provide me the quatrelabs contact id ?
+
+

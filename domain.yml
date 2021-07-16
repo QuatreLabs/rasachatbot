@@ -1,0 +1,66 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - thanks
+  - ql_vision
+  - ql_aboutus
+  - ql_services
+  - ql_services_web
+  - ql_services_mobileapp
+  - ql_consultancy
+  - ql_pricing
+  - ql_location
+  - ql_contact
+
+
+responses:
+  utter_greet:
+  - text: "Hello, Welcome to QuatreLabs"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_goodbye:
+  - text: "Sayonara, we wish to see you soon"
+
+  utter_iamabot:
+  - text: "I am a bot powered by QuatreLabs"
+
+  utter_ql_thanks:
+  - text: "Our Pleasure, Im always here to help with your queries :)"
+
+  utter_ql_vision:
+  - text: "Our vision is on Quality, Integrity, Flexiblity, Growth."
+
+  utter_ql_aboutus:
+  - text: "QuatreLabs is all about creating a innovative Digital Solution. We propel your ideas with our best-in class solutions."
+
+  utter_ql_services_help:
+  - text: "We provide services in Web App development and mobile app development and for more information please check our services section or feel free to drop a mail to info@quatrelabs.com"
+
+  utter_ql_services_web_help:
+  - text: "Yes, we can help you in the web application development services. Look at our brief description in the services section."
+
+  utter_ql_services_mobile_help:
+  - text: "Yes, we can help you in the mobile application development services. Look at our brief description in the services section."
+
+  utter_ql_consultancy:
+  - text: "Sure, Please provide your email at contact section and I will let the team reach you."
+
+  utter_ql_pricing:
+  - text: "Im unable to answer this. I will let our team to reach you for the pricing. Please provide your emailid and details at our contact section."
+
+  utter_ql_location:
+  - text: "Our Team is currently located in Chennai to solve your problems with leading Digital solutions."
+
+  utter_ql_contact:
+  - text: "Yes, Please feel free to write us at info@quatrelabs.com"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
